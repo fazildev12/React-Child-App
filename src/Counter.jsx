@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import './styles/tailwind.css';
 
 const Counter = () => {
 	// Counter is a state initialized to 0
@@ -31,7 +31,7 @@ const Counter = () => {
 				top: "-15%",
 			}}
 		>
-			Counter App
+			<h3 class="text-red-600">Counter App</h3>
 			<div
 				style={{
 					fontSize: "120%",
