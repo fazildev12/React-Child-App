@@ -31,7 +31,7 @@ const Counter = () => {
 				top: "-15%",
 			}}
 		>
-			<h3 class="text-red-600">Counter App</h3>
+			<h3 class="text-red-300">Counter App</h3>
 			<div
 				style={{
 					fontSize: "120%",
