@@ -65,7 +65,9 @@ module.exports = (_, argv) => ({
       name: "react_child_app",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Counter":"./src/Counter.jsx"
+      },
       shared: {
         ...deps,
         react: {
